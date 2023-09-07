@@ -19,3 +19,22 @@ function afterTask(){
 
 doTask('interview',afterTask);
 console.log("I'm doing something else while waiting for the task to complete.");
+
+// Example 2
+
+function fetchData(cb){
+setTimeout(()=>{
+    const data={msg:"data hasbeen fetched"};
+    cb(data);
+},2000);
+}
+
+// cb function to handle fetch data
+function handleData(data){
+    console.log(`Data received,${data.msg}`);
+}
+
+// Call the fetchData function and pass the handleData callback.
+fetchData(handleData);
+
+console.log(`fetching Data....`)
