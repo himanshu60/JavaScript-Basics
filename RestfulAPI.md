@@ -1,0 +1,4 @@
+# A RESTful API is a way for software applications to communicate over the internet using a set of rules that make it easy to request and exchange data. It's like a standardized language that allows different programs to talk to each other and share information in a predictable and organized manner. This helps developers build web services and applications that can work together smoothly.
+
+# simple Language
+A RESTful API is like a menu at a restaurant where you can order dishes. It's a set of rules that makes it easy for computer programs to talk to each other over the internet. Imagine it's like having a menu that everyone understands, so you can order your food (data) and get exactly what you want. This helps programmers create apps and websites that can share and use information from each other without any confusion.
