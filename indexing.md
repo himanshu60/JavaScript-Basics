@@ -1,0 +1,3 @@
+Indexing in MongoDB is a way to optimize the performance of a database by minimizing the amount of data that mongoDB needs to scan when executing queries.
+# Example:-
+If you have a collection with a million documents and you need to find a document where the "name" field is "john",without an index in mongoDB would need to scan all one million documents. But if you have an index on the "name" field, MongoDB can use that index to limit the number of documents it needs to scan, significantly improving the query's execution time.
