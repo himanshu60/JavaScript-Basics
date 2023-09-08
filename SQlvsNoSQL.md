@@ -16,3 +16,24 @@ include MongoDB, Cassandra, and CouchDB.
 # 3 SQL databases are usually vertically scalable, while NoSQL databases are horizontally scalable 
 
 # 4 SQL databases are better for multi-row transactions, while NoSQL databases are better for unstructured data like documents or JSON. 
+
+
+NoSQL Database (e.g., MongoDB):
+
+Flexibility: NoSQL databases are flexible and can handle unstructured or semi-structured data, making them suitable for scenarios where data doesn't fit neatly into tables.
+
+Scalability: NoSQL databases are typically easier to scale horizontally, which means adding more servers to handle increased traffic or data.
+
+Speed: NoSQL databases can be faster for certain types of queries, especially when dealing with large volumes of data.
+
+Schema-less: NoSQL databases are schema-less, meaning you don't need to define a fixed structure for your data before storing it.
+
+SQL Database (e.g., MySQL):
+
+Structured Data: SQL databases are great for structured data with well-defined relationships between tables.
+
+ACID Transactions: SQL databases provide strong consistency and support for ACID (Atomicity, Consistency, Isolation, Durability) transactions, which are essential for financial and critical applications.
+
+Complex Queries: SQL databases excel in complex queries, including JOIN operations, which are useful for combining data from multiple tables.
+
+Mature Ecosystem: SQL databases have been around for a long time and have a mature ecosystem with a wide range of tools and support.
