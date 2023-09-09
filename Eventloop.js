@@ -1,5 +1,6 @@
 // In JS , the event loop is a fundamental concept that allows JS to manage asynchronous operation.
-// It is the mechanism that controls the execution of code in a non-blocking way, ensure that your program can continue run smoothly.
+// It is the mechanism that controls the execution of code in a non-blocking way, 
+// ensure that your program can continue run smoothly.
 
 // Example
 
