@@ -1,7 +1,12 @@
-// In Js , async/await is a modern way to with asynchronous code that makes it easier to read, write, and reason about asynchronous operations. Its build on top of promises and provides a more synchronous-like syntax for handing asynchronous tasks.
+// In Js , async/await is a modern way to with asynchronous code that makes it easier to read, write,
+//  and reason about asynchronous operations. Its build on top of promises and provides a more synchronous-like 
+// syntax for handing asynchronous tasks.
 
 // explaination of Ex
-// Imagine you're at a coffee shop, and you've placed an order. Instead of waiting at the counter for your coffee (blocking), you take a seat and continue doing other things. You have a token (like a Promise) that indicates your coffee will be ready when it's done. When it's ready, you can collect it (like using await) without interrupting your other activities.
+// Imagine you're at a coffee shop, and you've placed an order. Instead of waiting at the counter for your coffee
+//  (blocking), you take a seat and continue doing other things. You have a token (like a Promise)
+//  that indicates your coffee will be ready when it's done. When it's ready, you can collect it (like using await)
+//  without interrupting your other activities.
 
 // Example
 
