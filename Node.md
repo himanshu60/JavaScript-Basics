@@ -1,5 +1,11 @@
 Node.js is a runtime environment that allows you to run JavaScript on the server-side, as opposed to the client-side where JavaScript is traditionally used in web browsers. Here's how Node.js works and what it's used for:
 
+Node.js:
+
+Node.js is like a special tool that allows you to run JavaScript code on your computer outside of a web browser.
+It's designed for building fast and efficient applications, especially for web servers and other network-related tasks.
+Node.js is great for handling lots of tasks at the same time without getting stuck, making it a popular choice for building real-time web applications and server-side programs.
+
 # Server-Side JavaScript:
 
 Node.js enables you to write JavaScript code that runs on the server. This means you can use JavaScript to build the backend of web applications, not just the frontend.
