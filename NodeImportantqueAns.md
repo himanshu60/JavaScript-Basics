@@ -1,5 +1,5 @@
 
-```markdown
+
 # Node.js Interview Questions and Answers
 
 ## 1. What is Node.js?
@@ -167,6 +167,3 @@ The `http` and `https` modules are core modules in Node.js used for creating HTT
 ## 39. What is the purpose of the `url` module in Node.js?
 
 The `url` module in Node.js provides utilities for URL parsing and formatting. It's commonly used for working with URLs in web applications.
-```
-
-This Markdown file contains all 40 Node.js interview questions with their answers. You can save it as a .md file and use it as a reference for your interview preparation.
