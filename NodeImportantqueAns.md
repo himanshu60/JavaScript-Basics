@@ -1,5 +1,3 @@
-
-
 # Node.js Interview Questions and Answers
 
 ## 1. What is Node.js?
