@@ -58,3 +58,107 @@ Now, you want to perform some aggregations on this data:
    This aggregation tells you that there are a total of 4 sales transactions.
 
 In these examples, aggregation allows you to summarize and gain insights from a large set of data by condensing it into meaningful single values or statistics.
+
+
+<---------------------------------------------------------------------------------------------------------------->
+# Aggregation in MongoDB
+
+In MongoDB, aggregation is a powerful framework that allows you to process and transform data from one or more collections. Here's an example of a MongoDB aggregation pipeline with all the commonly used stages:
+
+Assume we have a collection called "sales" with the following sample data:
+
+```json
+[
+  {
+    "_id": 1,
+    "product": "Laptop",
+    "quantity": 3,
+    "price": 1000
+  },
+  {
+    "_id": 2,
+    "product": "Smartphone",
+    "quantity": 5,
+    "price": 500
+  },
+  {
+    "_id": 3,
+    "product": "Tablet",
+    "quantity": 2,
+    "price": 300
+  }
+]
+```
+
+Here's a MongoDB aggregation pipeline that demonstrates the use of various stages:
+
+```javascript
+db.sales.aggregate([
+  {
+    $match: {
+      product: { $in: ["Laptop", "Tablet"] }
+    }
+  },
+  {
+    $group: {
+      _id: "$product",
+      total_quantity: { $sum: "$quantity" },
+      average_price: { $avg: "$price" }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      product: "$_id",
+      total_quantity: 1,
+      average_price: 1
+    }
+  },
+  {
+    $sort: {
+      total_quantity: -1
+    }
+  },
+  {
+    $limit: 2
+  }
+]);
+```
+
+Let's break down each stage:
+
+1. **`$match` Stage:**
+   - Filters the documents to include only those where the "product" is either "Laptop" or "Tablet."
+
+2. **`$group` Stage:**
+   - Groups the documents by the "product" field.
+   - Calculates the total quantity sold for each product using `$sum`.
+   - Calculates the average price for each product using `$avg`.
+
+3. **`$project` Stage:**
+   - Reshapes the output document, excluding the "_id" field and renaming "_id" to "product."
+
+4. **`$sort` Stage:**
+   - Sorts the output documents in descending order based on the "total_quantity" field.
+
+5. **`$limit` Stage:**
+   - Limits the number of output documents to 2.
+
+The final result of this aggregation pipeline will show the total quantity sold and the average price for the two products ("Laptop" and "Tablet") with the highest total quantity. The output might look like this:
+
+```json
+[
+  {
+    "product": "Laptop",
+    "total_quantity": 3,
+    "average_price": 1000
+  },
+  {
+    "product": "Tablet",
+    "total_quantity": 2,
+    "average_price": 300
+  }
+]
+```
+
+This example demonstrates how you can use multiple aggregation stages to filter, group, reshape, sort, and limit the data in a MongoDB collection to derive meaningful insights.
