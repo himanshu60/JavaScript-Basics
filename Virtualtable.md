@@ -1,0 +1,1 @@
+A virtual table is like a "shortcut" or a "window" that shows you data from a real table without storing the data itself. It's like having a view of the data without having to create a new physical table. You can use this virtual table to easily access and manipulate the data from the real table, making it more convenient to work with.
