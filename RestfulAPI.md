@@ -4,7 +4,7 @@
 A RESTful API is like a menu at a restaurant where you can order dishes. It's a set of rules that makes it easy for computer programs to talk to each other over the internet. Imagine it's like having a menu that everyone understands, so you can order your food (data) and get exactly what you want. This helps programmers create apps and websites that can share and use information from each other without any confusion.
 
 
-In Node.js, an API (Application Programming Interface) refers to a set of rules and protocols that allows different software applications or components to communicate with each other. Node.js is a versatile platform for building APIs, whether you're creating web APIs for client-server communication or internal APIs for modularizing your codebase.
+# In Node.js, an API (Application Programming Interface) refers to a set of rules and protocols that allows different software applications or components to communicate with each other. Node.js is a versatile platform for building APIs, whether you're creating web APIs for client-server communication or internal APIs for modularizing your codebase.
 
 There are various types of APIs in Node.js, depending on their purpose and use cases. Here are some common types:
 
