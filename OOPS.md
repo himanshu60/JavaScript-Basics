@@ -12,6 +12,15 @@ Here's a simple explanation of Object-Oriented Programming (OOP) in JavaScript:
 
 5. **Polymorphism:** Polymorphism means that different objects can respond to the same method or function call in a way that's specific to their individual types. This is achieved through method overriding and dynamic dispatch.
 
+
+6. **Abstraction:** Abstraction is the process of simplifying complex reality by modeling classes based on their essential characteristics. It allows you to focus on the relevant aspects of an object and ignore the irrelevant details.
+
+7. **Method Overloading:** Method overloading is a feature that allows a class to have multiple methods with the same name but different parameter lists. The appropriate method is called based on the arguments passed to it.
+
+8. **Method Overriding:** Method overriding is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass. This allows for customization of behavior in derived classes.
+
+9. **Constructors and Destructors:** Constructors are special methods used for initializing objects when they are created, while destructors (in languages that support them) are used for cleaning up resources when an object is no longer needed.
+
 Here's a simple example of OOP in JavaScript:
 
 ```javascript
