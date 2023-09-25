@@ -1,9 +1,6 @@
-// In JS , a callback is a function that passed as an argument to another function and is executed 
-// after the completion of the function.
+In JS , a callback is a function that passed as an argument to another function and is executed after them completion of the function.
 
-// Callbacks are often used for asynchronous operation,such as reading file, making networking request, 
-// or handle user interations, where we dont know exactly the operation will finish, 
-// but we want to perform some action when it does.
+Callbacks are often used for asynchronous operation,such as reading file, making networking request, or handle user interations, where we dont know exactly the operation will finish, but we want to perform some action when it does.
 
 
 // Example
@@ -32,12 +29,12 @@ setTimeout(()=>{
 },2000);
 }
 
-// cb function to handle fetch data
+cb function to handle fetch data
 function handleData(data){
     console.log(`Data received,${data.msg}`);
 }
 
-// Call the fetchData function and pass the handleData callback.
+Call the fetchData function and pass the handleData callback.
 fetchData(handleData);
 
 console.log(`fetching Data....`)
