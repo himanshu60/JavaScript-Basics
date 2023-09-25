@@ -4,7 +4,7 @@ Callbacks are often used for asynchronous operation,such as reading file, making
 
 
 // Example
-
+```
 function doTask(taskname,cb){
     console.log(`starting ${taskname}....`);
     setTimeout(()=>{
@@ -19,9 +19,9 @@ function afterTask(){
 
 doTask('interview',afterTask);
 console.log("I'm doing something else while waiting for the task to complete.");
-
+```
 // Example 2
-
+```
 function fetchData(cb){
 setTimeout(()=>{
     const data={msg:"data hasbeen fetched"};
@@ -38,3 +38,4 @@ Call the fetchData function and pass the handleData callback.
 fetchData(handleData);
 
 console.log(`fetching Data....`)
+```
