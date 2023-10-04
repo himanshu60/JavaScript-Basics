@@ -19,8 +19,7 @@ Here are five key features of Python in very short points:
 
 
 **Flask & its features:**
-- **Flask:** Flask is a lightweight web framework for Python used to build web applications. It's minimalistic and flexible.
-
+- **Flask:** 
 Flask is a simple and lightweight web framework for building web applications with Python. Flask makes it easier to handle tasks like serving web pages, processing user inputs, and managing databases. It's a popular choice for beginners and developers who want to build web applications quickly and easily using Python.
 
 Here are five key features of Flask, a web framework in Python, in a simple and concise manner:
