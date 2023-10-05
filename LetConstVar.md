@@ -13,10 +13,46 @@ Ans- `let`, `var`, and `const` are three different ways to declare variables in 
    - `let` variables cannot be redeclared within the same scope, which helps prevent accidental errors.
    - `let` variables can be updated and reassigned.
 
+   **temporal dead Zone**
+function exampleFunction() {
+  console.log(x); // ReferenceError: Cannot access 'x' before initialization
+  let x = 10; // Variable declaration
+  console.log(x); // Outputs 10
+}
+
+exampleFunction();
+
+
+
 3. **const:**
    - Variables declared with `const` are block-scoped, just like `let`.
    - `const` declarations are also hoisted to the top of their scope, and they are in the "temporal dead zone" until they are declared.
    - `const` variables cannot be redeclared or reassigned once they are defined. However, the value they hold can be mutable if it's an object or an array. This means you can modify the properties of an object or the elements of an array declared with `const`.
+
+   const myArray = [1, 2, 3];
+
+console.log(myArray); // Outputs [1, 2, 3]
+
+// You can modify the elements of the array
+myArray[0] = 4;
+console.log(myArray); // Outputs [4, 2, 3]
+
+// But you cannot reassign 'myArray' to a different array
+// This would result in an error:
+// myArray = [5, 6, 7]; // Error: Assignment to constant variable
+
+const myObject = { key: 'value' };
+
+console.log(myObject); // Outputs { key: 'value' }
+
+// You can modify the properties of the object
+myObject.key = 'new value';
+console.log(myObject); // Outputs { key: 'new value' }
+
+// But you cannot reassign 'myObject' to a different object
+// This would result in an error:
+// myObject = { newKey: 'another value' }; // Error: Assignment to constant variable
+
 
 Here's a simple comparison:
 
