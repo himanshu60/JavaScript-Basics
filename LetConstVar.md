@@ -14,6 +14,9 @@ Ans- `let`, `var`, and `const` are three different ways to declare variables in 
    - `let` variables can be updated and reassigned.
 
    **temporal dead Zone**
+
+
+```javascript
 function exampleFunction() {
   console.log(x); // ReferenceError: Cannot access 'x' before initialization
   let x = 10; // Variable declaration
@@ -21,15 +24,16 @@ function exampleFunction() {
 }
 
 exampleFunction();
-
-
+```
 
 3. **const:**
    - Variables declared with `const` are block-scoped, just like `let`.
    - `const` declarations are also hoisted to the top of their scope, and they are in the "temporal dead zone" until they are declared.
    - `const` variables cannot be redeclared or reassigned once they are defined. However, the value they hold can be mutable if it's an object or an array. This means you can modify the properties of an object or the elements of an array declared with `const`.
 
-   const myArray = [1, 2, 3];
+
+```javascript
+const myArray = [1, 2, 3];
 
 console.log(myArray); // Outputs [1, 2, 3]
 
@@ -52,6 +56,10 @@ console.log(myObject); // Outputs { key: 'new value' }
 // But you cannot reassign 'myObject' to a different object
 // This would result in an error:
 // myObject = { newKey: 'another value' }; // Error: Assignment to constant variable
+```
+
+
+
 
 
 Here's a simple comparison:
