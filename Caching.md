@@ -1,6 +1,6 @@
 Caching is like storing information or data in a handy place so you can access it quickly when you need it again. Imagine you have a favorite book you like to read. Instead of going to the library every time you want to read it, you keep a copy of the book on your bookshelf at home. That way, you can reach for it easily whenever you want without the hassle of going to the library.
 
-In the digital world, caching works similarly:
+In the digital world, caching works similarly
 
 **Types of Caching:**
 
