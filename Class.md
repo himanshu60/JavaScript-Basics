@@ -1,7 +1,8 @@
-// Define a class called 'Person'
-class Person {
-  // Constructor method to initialize object properties
-  constructor(firstName, lastName, age) {
+# Define a class called 'Person'
+```
+  class Person {
+    Constructor method to initialize object properties
+    constructor(firstName, lastName, age) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
@@ -17,17 +18,25 @@ class Person {
     return this.age >= 18;
   }
 }
+```
 
-// Create an instance of the 'Person' class
-const person1 = new Person("Himanshu", "Choudhary", 30);
 
-// Access properties and methods of the instance
+# Create an instance of the 'Person' class
+```
+const person1 = new Person("Himanshu", "Choudhary", 30)
+```
+
+
+# Access properties and methods of the instance
+```
 console.log(person1.firstName); // Output: "Himanshu"
 console.log(person1.fullName()); // Output: "Himanshu Choudhary"
 console.log(person1.isAdult()); // Output: true
 
-// Example 2
+```
 
+# Example 2
+```
 class Car {
   constructor(make, type, year) {
     this.make = make;
@@ -51,3 +60,5 @@ myCar.acceleration();
 myCar.acceleration();
 myCar.break();
 console.log(myCar.getStatus());
+```
+
