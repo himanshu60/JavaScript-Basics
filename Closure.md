@@ -1,7 +1,7 @@
-// In Js closure is a concept that describe how functions remember and can access variables 
-// from their containing or outer scopes, even after the outer function has finished executing.
-// closure allow you to create and maintain private data within functions and are a fundamental part of Javascript 
-// behaviour.
+In Js closure is a concept that describe how functions remember and can access variables 
+from their containing or outer scopes, even after the outer function has finished executing.
+closure allow you to create and maintain private data within functions and are a fundamental part of Javascript 
+behaviour.
 
 // Example-1
 function outerFunc(){
