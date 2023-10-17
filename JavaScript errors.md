@@ -1,0 +1,5 @@
+- SyntaxError: Occurs when there is a syntax error in the code.
+- ReferenceError: Occurs when trying to access a variable that is not declared or out of scope.
+- TypeError: Occurs when an operation is performed on an incompatible data type.
+- RangeError: Occurs when a value is out of the range of acceptable values.
+- InternalError: Occurs when an internal JavaScript engine error occurs.
