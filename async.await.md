@@ -9,7 +9,7 @@
 //  without interrupting your other activities.
 
 // Example
-
+```
 // Simulate ordering coffee (an asynchronous operation).
 function orderCoffee(isSuccessful) {
   return new Promise((resolve, reject) => {
@@ -39,3 +39,4 @@ async function getAndEnjoyCoffee() {
 // Call the async function to order and enjoy coffee.
 getAndEnjoyCoffee();
 console.log("Carrying on with other tasks...");
+```
