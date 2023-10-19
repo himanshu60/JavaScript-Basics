@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Listener Example</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+  <p id="output"></p>
+
+  <script>
+    // Get a reference to the button element and the output paragraph
+    const button = document.getElementById("myButton");
+    const output = document.getElementById("output");
+
+    // Add a click event listener to the button
+    button.addEventListener("click", ()=> {
+      // This function will be executed when the button is clicked
+      output.textContent = "Button clicked!";
+    });
+  </script>
+</body>
+</html>
