@@ -15,6 +15,7 @@
 // 3. Security: JWTs are digitally signed, which means they can be verified to ensure their authenticity.
 // This helps prevent unauthorized users from tampering with the data stored in the token.
 
+```
 const jwt = require("jsonwebtoken");
 
 // Creating a JWT
@@ -32,3 +33,4 @@ jwt.verify(token, secretKey, (err, decoded) => {
     console.log("Decoded Token:", decoded);
   }
 });
+```
