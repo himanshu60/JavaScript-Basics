@@ -12,8 +12,10 @@
 // without waiting for your food. When the food is ready, the promise (receipt) is fulfilled, 
 // and you receive your meal. If there's a problem (e.g., the kitchen is out of ingredients), 
 // the promise is rejected, and you are informed.
-```
+
+
 // Example 1
+```
 function fetchData(){
     return new Promise((resolve,reject)=>{
         setTimeout(()=>{
