@@ -3,7 +3,7 @@
 // ensure that your program can continue run smoothly.
 
 // Example
-
+```
 console.log(`Start the Program`);
 // This function simulates an asynchronous task (like reading a file or making an HTTP request).
 function asyncTask(){
@@ -14,3 +14,4 @@ function asyncTask(){
 
 asyncTask();
 console.log(`End the Program`);
+```
