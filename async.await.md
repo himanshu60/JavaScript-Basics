@@ -9,6 +9,7 @@
 //  without interrupting your other activities.
 
 // Example
+
 ```
 // Simulate ordering coffee (an asynchronous operation).
 function orderCoffee(isSuccessful) {
