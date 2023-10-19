@@ -16,7 +16,7 @@ Third-party middleware are modules or packages created by external developers th
 
 Time Logger: A time logger middleware is a type of middleware used to log the time taken to process a request. It captures the start time before the request is handled and calculates the duration once the response is sent. Here's an example of a time logger middleware in Express.js:
 
-
+```
 const express = require('express');
 const app = express();
 
@@ -51,4 +51,4 @@ app.get('/users', (req, res) => {
 app.listen(3000, () => {
   console.log('Server started on port 3000');
 });
-
+```
