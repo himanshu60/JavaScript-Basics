@@ -8,7 +8,7 @@
 This salt is unique for each user and adds an extra layer of security.
 
 3. Security: By using Bcrypt, even if an attacker gets hold of the hashed passwords and the salt,it's extremely difficult and time-consuming for them to reverse-engineer the original passwords. This helps protect user accounts from unauthorized access.
-
+```
 const bcrypt = require("bcrypt");
 
 Hashing a password
@@ -35,3 +35,4 @@ bcrypt.compare(plainPassword, hashedPassword, (err, result) => {
     }
   }
 });
+```
