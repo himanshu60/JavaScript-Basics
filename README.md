@@ -2,7 +2,7 @@
 
 Interview preparation notes — simple definitions, plain-word explanations and code examples for every topic.
 
-## 📄 [ALL_QUESTIONS.md](ALL_QUESTIONS.md) — every question in one file (620+ questions)
+## 📄 [ALL_QUESTIONS.md](ALL_QUESTIONS.md) — every question in one file (670+ questions)
 
 ---
 
@@ -22,7 +22,8 @@ Interview preparation notes — simple definitions, plain-word explanations and 
 | 📁 [Resume_Scenario_Questions/](Resume_Scenario_Questions/) | Resume deep dives, STAR, system design, tricky questions | [Index](Resume_Scenario_Questions/README.md) |
 | 📁 [HTML_CSS_Questions/](HTML_CSS_Questions/) | 4 files | — |
 | 📁 [Python_Interview_Questions/](Python_Interview_Questions/) | 17 files — basics, OOP, advanced | [60 Q&A](Python_Interview_Questions/PythonImpQue.md) |
-| 📁 [Tecnique/](Tecnique/) | 16 JS practice problems | — |
+| 📁 [Go_Interview_Questions/](Go_Interview_Questions/) | Basics, concurrency, goroutines and channels | [50 Q&A](Go_Interview_Questions/GoImpQue.md) |
+| 📁 [Tecnique/](Tecnique/) | 16 JS practice problems | [Index](Tecnique/README.md) |
 
 Each folder has its own `README.md` with the full topic table and question list.
 
@@ -142,6 +143,14 @@ Each question has the problem, an example, a brute force approach, the optimal s
 📁 [Resume_Scenario_Questions/](Resume_Scenario_Questions/)
 
 [Resume Audit](Resume_Scenario_Questions/ResumeAudit.md) · [Experience Deep Dive](Resume_Scenario_Questions/Clodura-DeepDive.md) · [Projects Deep Dive](Resume_Scenario_Questions/Projects-DeepDive.md) · [Behavioural & STAR](Resume_Scenario_Questions/BehavioralSTAR.md) · [System Design Scenarios](Resume_Scenario_Questions/SystemDesignScenarios.md) · [Tricky Questions](Resume_Scenario_Questions/TrickyQuestions.md)
+
+---
+
+## Go
+
+📁 [Go_Interview_Questions/](Go_Interview_Questions/)
+
+[Go Basics](Go_Interview_Questions/GoBasics.md) · [Go Concurrency](Go_Interview_Questions/GoConcurrency.md)
 
 ---
 

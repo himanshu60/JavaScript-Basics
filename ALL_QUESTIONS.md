@@ -1,6 +1,6 @@
 # All Interview Questions — Master List
 
-Every question across every topic in one place. **620+ questions.**
+Every question across every topic in one place. **670+ questions.**
 
 | Section | Count | Answers file |
 |---|---|---|
@@ -15,6 +15,7 @@ Every question across every topic in one place. **620+ questions.**
 | [DSA — Top 50](#dsa--top-50-coding-questions) | 50 | [DSA_Questions/](DSA_Questions/README.md) |
 | [Resume & Behavioural](#resume--behavioural) | — | [Resume_Scenario_Questions/](Resume_Scenario_Questions/README.md) |
 | [HTML & CSS](#html--css) | — | [HTML_CSS_Questions/](HTML_CSS_Questions/) |
+| [Go](#go-50-questions) | 50 | [GoImpQue.md](Go_Interview_Questions/GoImpQue.md) |
 | [Python](#python-60-questions) | 60 | [PythonImpQue.md](Python_Interview_Questions/PythonImpQue.md) |
 
 ---
@@ -610,6 +611,22 @@ Every question has: problem statement, example, brute force, optimal solution(s)
 41. Reverse a Linked List · 42. Detect a Cycle in a Linked List · 43. Find the Middle of a Linked List · 44. Merge Two Sorted Lists · 45. Remove Nth Node From End · 46. Valid Parentheses · 47. Implement a Queue using Stacks · 48. Min Stack · 49. Binary Tree Traversals · 50. Max Depth & Invert a Binary Tree
 
 **Reference notes:** [Time complexity](DSA_Questions/Time-complexity-Array-Object.md) · [Merge Sort](DSA_Questions/MergeSort.md) · [Lookup](DSA_Questions/LookUp.md) · [Reverse a word](DSA_Questions/reverseWord.md) · [Number to binary](DSA_Questions/NumberToBinary.md)
+
+---
+
+## Go (50 questions)
+
+📁 [Go_Interview_Questions/](Go_Interview_Questions/) · 📄 [Answers](Go_Interview_Questions/GoImpQue.md)
+
+**Basics (1–15)** · why Go, drawbacks, zero values, `var` vs `:=`, arrays vs slices, **slices share memory**, `append`, map rules, comma-ok, visibility by capitalisation, composition over inheritance, value vs pointer receivers, implicit interfaces, empty interface, type assertions
+
+**Errors and defer (16–21)** · errors as values, `%w` wrapping, `errors.Is` vs `errors.As`, when to panic, how `defer` works, why not to defer in a loop
+
+**Concurrency (22–40)** · goroutines vs threads, GMP scheduler, channels, buffered vs unbuffered, **who closes a channel**, nil channels, `select`, WaitGroup, Mutex vs channel, RWMutex, context, **loop variable trap**, race detection, deadlocks, **goroutine leaks**, worker pools, limiting concurrency
+
+**Practical (41–50)** · `go mod`, testing, project layout, HTTP servers, struct tags, garbage collection, `go vet`, `gofmt`, generics, config and secrets
+
+**Topic files:** [Go Basics](Go_Interview_Questions/GoBasics.md) · [Go Concurrency](Go_Interview_Questions/GoConcurrency.md)
 
 ---
 
