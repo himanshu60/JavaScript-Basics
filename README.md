@@ -68,7 +68,7 @@ Jump straight to the [most-asked list](ALL_QUESTIONS.md#most-asked-questions-sta
 
 **State:** [Context API](React_Interview_Questions/ContextAPI.md) · [Prop Drilling](React_Interview_Questions/propDrilling.md) · [Redux vs Context](React_Interview_Questions/Redux-vs-Context.api.md) · [Redux Toolkit](React_Interview_Questions/ReduxToolkit.md)
 
-**Patterns & Performance:** [Controlled vs Uncontrolled](React_Interview_Questions/ControlledVsUncontrolled.md) · [Error Boundaries](React_Interview_Questions/ErrorBoundaries.md) · [Fragments & Portals](React_Interview_Questions/FragmentsAndPortals.md) · [HOC & Render Props](React_Interview_Questions/HOC-And-RenderProps.md) · [React Router](React_Interview_Questions/ReactRouter.md) · [Lazy Loading & Suspense](React_Interview_Questions/LazyLoadingSuspense.md) · [Performance](React_Interview_Questions/PerformanceOptimization.md) · [Server Components & React 19](React_Interview_Questions/ServerComponents.md)
+**Patterns & Performance:** [Controlled vs Uncontrolled](React_Interview_Questions/ControlledVsUncontrolled.md) · [Error Boundaries](React_Interview_Questions/ErrorBoundaries.md) · [Fragments & Portals](React_Interview_Questions/FragmentsAndPortals.md) · [HOC & Render Props](React_Interview_Questions/HOC-And-RenderProps.md) · [Data Fetching](React_Interview_Questions/DataFetchingPatterns.md) · [React Router](React_Interview_Questions/ReactRouter.md) · [Lazy Loading & Suspense](React_Interview_Questions/LazyLoadingSuspense.md) · [Performance](React_Interview_Questions/PerformanceOptimization.md) · [Server Components & React 19](React_Interview_Questions/ServerComponents.md)
 
 ---
 

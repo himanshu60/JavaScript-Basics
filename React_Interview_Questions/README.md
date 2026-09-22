@@ -52,6 +52,7 @@
 |---|---|---|
 | **React Router** | [ReactRouter.md](ReactRouter.md) | Routes, params, nested layouts, protected routes |
 | **Lazy Loading & Suspense** | [LazyLoadingSuspense.md](LazyLoadingSuspense.md) | Code splitting, preloading, streaming |
+| **Data Fetching Patterns** | [DataFetchingPatterns.md](DataFetchingPatterns.md) | Loading/error/empty states, race conditions, pagination, filtering, caching, optimistic updates |
 | **Performance Optimization** | [PerformanceOptimization.md](PerformanceOptimization.md) | Profiling, virtualization, transitions, checklist |
 | **Server Components & React 19** | [ServerComponents.md](ServerComponents.md) | RSC, `"use client"`, Server Actions, new hooks |
 
