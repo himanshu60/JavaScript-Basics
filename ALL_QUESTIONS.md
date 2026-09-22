@@ -1,12 +1,13 @@
 # All Interview Questions — Master List
 
-Every question across every topic in one place. **670+ questions.**
+Every question across every topic in one place. **730+ questions.**
 
 | Section | Count | Answers file |
 |---|---|---|
 | [JavaScript](#javascript-60-questions) | 60 | [JavaScriptImpQue.md](JavaScript_Interview_Questions/JavaScriptImpQue.md) |
 | [React](#react-65-questions) | 65 | [ReactImpQue.md](React_Interview_Questions/ReactImpQue.md) |
 | [Next.js](#nextjs-60-questions) | 60 | [NextjsImpQue.md](Nextjs_Interview_Questions/NextjsImpQue.md) |
+| [Angular](#angular-60-questions) | 60 | [AngularImpQue.md](Angular_Interview_Questions/AngularImpQue.md) |
 | [MongoDB](#mongodb-65-questions) | 65 | [MongoDBImpQue.md](MongoDB_Interview_Questions/MongoDBImpQue.md) |
 | [SQL](#sql-60-questions) | 60 | [SQLImpQue.md](SQL_Interview_Questions/SQLImpQue.md) |
 | [Node.js & Backend](#nodejs--backend-90-questions) | 90 | [Basics 1–39](Node_Backend_Questions/NodeImportantqueAns.md) · [Advanced 40–90](Node_Backend_Questions/NodeAdvancedQuestions.md) |
@@ -296,6 +297,32 @@ The questions that come up in almost every interview:
 50. What is `output: "standalone"`?
 51. What is a static export?
 60. What are the main Next.js 15 changes?
+
+---
+
+## Angular (60 questions)
+
+📁 [Angular_Interview_Questions/](Angular_Interview_Questions/) · 📄 [Answers](Angular_Interview_Questions/AngularImpQue.md)
+
+**Fundamentals (1–13)** · Angular vs React, AngularJS vs Angular, no Angular 3, components, decorators, data binding, `[(ngModel)]`, `*ngIf` vs `[hidden]`, directives, pure vs impure pipes, async pipe, content projection
+
+**Dependency Injection (14–17)** · DI, `providedIn: "root"`, per-component instances, `inject()`
+
+**Lifecycle (18–21)** · hook order, constructor vs `ngOnInit`, `ngOnDestroy`, `ngAfterViewInit`
+
+**Change Detection & Signals (22–32)** · **how it worked before signals (Zone.js)**, why whole-tree checking is wasteful, `OnPush`, what a signal is, **the main role of signals**, `signal`/`computed`/`effect`, automatic dependency tracking, when not to use `effect`, signals vs RxJS, **zoneless**, `input()`/`output()`/`model()`
+
+**RxJS (33–41)** · Observable vs Promise, cold vs hot, duplicate HTTP requests, Subject vs BehaviorSubject, **switchMap vs mergeMap vs concatMap vs exhaustMap**, race conditions, forkJoin vs combineLatest, memory leaks, `catchError`
+
+**Forms (42–45)** · template-driven vs reactive, FormControl/Group/Array, custom validators, touched vs dirty
+
+**Routing (46–50)** · route params and the snapshot trap, guards, resolvers, lazy loading, wildcard order
+
+**HTTP (51–53)** · unsubscribing, HttpClient vs fetch, interceptors
+
+**Modern Angular (54–60)** · standalone components, **new control flow `@if`/`@for`**, **`@defer`**, Ivy, AOT, `takeUntilDestroyed()`, migration strategy
+
+**Topic files:** [Basics](Angular_Interview_Questions/AngularBasics.md) · [Signals](Angular_Interview_Questions/ChangeDetectionAndSignals.md) · [RxJS](Angular_Interview_Questions/RxJSAndObservables.md) · [Forms/Routing/HTTP](Angular_Interview_Questions/FormsRoutingAndHttp.md) · [Versions](Angular_Interview_Questions/AngularVersions.md)
 
 ---
 

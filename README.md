@@ -2,7 +2,7 @@
 
 Interview preparation notes — simple definitions, plain-word explanations and code examples for every topic.
 
-## 📄 [ALL_QUESTIONS.md](ALL_QUESTIONS.md) — every question in one file (670+ questions)
+## 📄 [ALL_QUESTIONS.md](ALL_QUESTIONS.md) — every question in one file (730+ questions)
 
 ---
 
@@ -13,6 +13,7 @@ Interview preparation notes — simple definitions, plain-word explanations and 
 | 📁 [JavaScript_Interview_Questions/](JavaScript_Interview_Questions/) | 45 files — basics + advanced | [60 Q&A](JavaScript_Interview_Questions/JavaScriptImpQue.md) |
 | 📁 [React_Interview_Questions/](React_Interview_Questions/) | 27 files — fundamentals to React 19 | [65 Q&A](React_Interview_Questions/ReactImpQue.md) |
 | 📁 [Nextjs_Interview_Questions/](Nextjs_Interview_Questions/) | 11 files — App Router | [60 Q&A](Nextjs_Interview_Questions/NextjsImpQue.md) |
+| 📁 [Angular_Interview_Questions/](Angular_Interview_Questions/) | Signals, RxJS, forms, old vs new versions | [60 Q&A](Angular_Interview_Questions/AngularImpQue.md) |
 | 📁 [MongoDB_Interview_Questions/](MongoDB_Interview_Questions/) | 18 files — basics to sharding | [65 Q&A](MongoDB_Interview_Questions/MongoDBImpQue.md) |
 | 📁 [SQL_Interview_Questions/](SQL_Interview_Questions/) | Joins, indexes, normalization, transactions, window functions | [60 Q&A](SQL_Interview_Questions/SQLImpQue.md) |
 | 📁 [Node_Backend_Questions/](Node_Backend_Questions/) | 40 files — Node internals, Express, APIs, auth, architecture | [90 Q&A](Node_Backend_Questions/NodeAdvancedQuestions.md) |
@@ -77,6 +78,14 @@ Jump straight to the [most-asked list](ALL_QUESTIONS.md#most-asked-questions-sta
 📁 [Nextjs_Interview_Questions/](Nextjs_Interview_Questions/)
 
 [What is Next.js](Nextjs_Interview_Questions/WhatIsNextjs.md) · [React vs Next.js](Nextjs_Interview_Questions/ReactVsNextjs.md) · [CSR/SSR/SSG/ISR](Nextjs_Interview_Questions/RenderingMethods.md) · [Routing & Special Files](Nextjs_Interview_Questions/RoutingAndSpecialFiles.md) · [Data Fetching & Caching](Nextjs_Interview_Questions/DataFetchingAndCaching.md) · [Server vs Client Components](Nextjs_Interview_Questions/ServerVsClientComponents.md) · [Route Handlers & Middleware](Nextjs_Interview_Questions/RouteHandlersAndMiddleware.md) · [Optimization & SEO](Nextjs_Interview_Questions/OptimizationAndSEO.md) · [Auth & Deployment](Nextjs_Interview_Questions/AuthAndDeployment.md)
+
+---
+
+## Angular
+
+📁 [Angular_Interview_Questions/](Angular_Interview_Questions/)
+
+[Basics](Angular_Interview_Questions/AngularBasics.md) · [Change Detection & Signals](Angular_Interview_Questions/ChangeDetectionAndSignals.md) · [RxJS & Observables](Angular_Interview_Questions/RxJSAndObservables.md) · [Forms, Routing & HTTP](Angular_Interview_Questions/FormsRoutingAndHttp.md) · [Versions: Old vs New](Angular_Interview_Questions/AngularVersions.md)
 
 ---
 
