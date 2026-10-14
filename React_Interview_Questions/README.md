@@ -1,6 +1,8 @@
 # React Interview Questions
 
-📄 **[ReactImpQue.md](ReactImpQue.md)** — all 65 questions with answers in one file.
+📄 **[ReactImpQue.md](ReactImpQue.md)** — all 66 questions with answers in one file.
+
+⭐ **[Most_Asked_Questions/](Most_Asked_Questions/README.md)** — start here: the top 30 most asked questions, each with a simple answer and code example.
 
 ---
 
@@ -58,7 +60,7 @@
 
 ---
 
-## All 65 questions ([ReactImpQue.md](ReactImpQue.md))
+## All 66 questions ([ReactImpQue.md](ReactImpQue.md))
 
 1. What is React?
 2. Difference between a library and a framework?
@@ -125,6 +127,7 @@
 63. Why must state updates be immutable?
 64. What is `forwardRef` and is it still needed?
 65. What is hydration?
+66. When does a React component re-render?
 
 ---
 

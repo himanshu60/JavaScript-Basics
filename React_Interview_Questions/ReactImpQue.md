@@ -259,3 +259,33 @@ React compares references to detect changes. Mutating an object or array keeps t
 ## 65. What is hydration?
 
 The process where React attaches event listeners and state to server-rendered HTML in the browser, making the static markup interactive. A hydration error means the server HTML and the first client render did not match.
+
+## 66. When does a React component re-render?
+
+**Re-render** means React calls your component function again to get fresh JSX. It happens in **4 cases**:
+
+1. **Its own state changes** — you call `setState` with a new value.
+2. **Its parent re-renders** — by default, *every* child re-renders too, even if its props did not change.
+3. **A context it reads changes** — any component using `useContext(SomeContext)` re-renders when that context's value changes.
+4. **A hook it uses changes** — a custom hook's state is the component's state, so the same rule applies.
+
+```jsx
+function Parent() {
+  const [count, setCount] = useState(0);
+  return (
+    <>
+      <button onClick={() => setCount(count + 1)}>Clicked {count}</button>
+      <Child /> {/* re-renders on every click, even with no props */}
+    </>
+  );
+}
+```
+
+**Common trap:** "A component re-renders when its props change" is only half true. Props can only change *because* the parent re-rendered — and when the parent re-renders, the child re-renders anyway, whether its props changed or not.
+
+**Two things to remember:**
+
+- **Re-render ≠ DOM update.** React re-runs the function, compares the new result with the old one (reconciliation), and only touches the real DOM where something actually changed. Re-renders are usually cheap.
+- **Same value = no re-render.** If you set state to the same value it already has (`Object.is` comparison), React skips the re-render. This is also why mutating an object does not trigger one — it is still the same reference.
+
+**How to avoid unnecessary re-renders:** wrap the child in `React.memo` (it skips re-rendering when props are the same), keep state close to where it is used, pass stable props with `useMemo` / `useCallback`, or let the React Compiler do it for you.

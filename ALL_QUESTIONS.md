@@ -5,7 +5,7 @@ Every question across every topic in one place. **730+ questions.**
 | Section | Count | Answers file |
 |---|---|---|
 | [JavaScript](#javascript-60-questions) | 60 | [JavaScriptImpQue.md](JavaScript_Interview_Questions/JavaScriptImpQue.md) |
-| [React](#react-65-questions) | 65 | [ReactImpQue.md](React_Interview_Questions/ReactImpQue.md) |
+| [React](#react-66-questions) | 66 | [ReactImpQue.md](React_Interview_Questions/ReactImpQue.md) |
 | [Next.js](#nextjs-60-questions) | 60 | [NextjsImpQue.md](Nextjs_Interview_Questions/NextjsImpQue.md) |
 | [Angular](#angular-60-questions) | 60 | [AngularImpQue.md](Angular_Interview_Questions/AngularImpQue.md) |
 | [MongoDB](#mongodb-65-questions) | 65 | [MongoDBImpQue.md](MongoDB_Interview_Questions/MongoDBImpQue.md) |
@@ -133,9 +133,9 @@ The questions that come up in almost every interview:
 
 ---
 
-## React (65 questions)
+## React (66 questions)
 
-📁 [React_Interview_Questions/](React_Interview_Questions/) · 📄 [Answers](React_Interview_Questions/ReactImpQue.md)
+📁 [React_Interview_Questions/](React_Interview_Questions/) · 📄 [Answers](React_Interview_Questions/ReactImpQue.md) · ⭐ [Top 30 most asked](React_Interview_Questions/Most_Asked_Questions/README.md)
 
 **Fundamentals**
 1. What is React?
@@ -158,6 +158,7 @@ The questions that come up in almost every interview:
 39. Why is the array index a bad key?
 63. Why must state updates be immutable?
 65. What is hydration?
+66. When does a React component re-render?
 
 **Hooks**
 15. What is `useState`?
