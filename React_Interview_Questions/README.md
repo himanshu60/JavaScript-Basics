@@ -4,6 +4,8 @@
 
 ⭐ **[Most_Asked_Questions/](Most_Asked_Questions/README.md)** — start here: the top 30 most asked questions, each with a simple answer and code example.
 
+🚀 **[Advanced_Questions/](Advanced_Questions/README.md)** — next step: the top 50 advanced questions (Fiber, concurrent rendering, advanced hooks, performance, architecture, SSR, security, testing).
+
 ---
 
 ## Fundamentals

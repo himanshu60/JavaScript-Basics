@@ -11,7 +11,7 @@ Interview preparation notes — simple definitions, plain-word explanations and 
 | Folder | Topics | Questions |
 |---|---|---|
 | 📁 [JavaScript_Interview_Questions/](JavaScript_Interview_Questions/) | 45 files — basics + advanced | [60 Q&A](JavaScript_Interview_Questions/JavaScriptImpQue.md) |
-| 📁 [React_Interview_Questions/](React_Interview_Questions/) | 27 files — fundamentals to React 19 | [66 Q&A](React_Interview_Questions/ReactImpQue.md) · [⭐ Top 30](React_Interview_Questions/Most_Asked_Questions/README.md) |
+| 📁 [React_Interview_Questions/](React_Interview_Questions/) | 27 files — fundamentals to React 19 | [66 Q&A](React_Interview_Questions/ReactImpQue.md) · [⭐ Top 30](React_Interview_Questions/Most_Asked_Questions/README.md) · [🚀 Top 50 advanced](React_Interview_Questions/Advanced_Questions/README.md) |
 | 📁 [Nextjs_Interview_Questions/](Nextjs_Interview_Questions/) | 11 files — App Router | [60 Q&A](Nextjs_Interview_Questions/NextjsImpQue.md) |
 | 📁 [Angular_Interview_Questions/](Angular_Interview_Questions/) | Signals, RxJS, forms, old vs new versions | [60 Q&A](Angular_Interview_Questions/AngularImpQue.md) |
 | 📁 [MongoDB_Interview_Questions/](MongoDB_Interview_Questions/) | 18 files — basics to sharding | [65 Q&A](MongoDB_Interview_Questions/MongoDBImpQue.md) |
